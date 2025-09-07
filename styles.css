@@ -25,7 +25,7 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #f4f8fb; /* Soft light blue for a fresh look */
+  background-color: #FFC907; /* yello backgroung */
   font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -34,7 +34,7 @@ body {
 
 /* Add a slight shadow and rounded corners to each section for depth */
 section {
-  background: #fff; /* White background for sections */
+  background: #FF902A; /* White background for sections */
   border-radius: 12px; /* Rounded corners */
   box-shadow: 0 2px 8px rgba(46, 157, 247, 0.07); /* Soft blue shadow */
   margin: 24px 10px; /* Space between sections */
@@ -45,7 +45,7 @@ section {
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/b41c6d6089865d5e7dd46f7d6f966fbb3624bac5/JS_20130612_5953-Edit_preview.jpg?Expires=1757212280&Signature=dpaHwP~dBdI3Pnpmr0Z3J1NzeQnsjBqT3IIsDlBsuoVKteW2JoLmMpRRUrN7yZt-COAT49hyHrewJCnKc0EM7n4jazOHbyAYmStu0WJl~ACJKPGjaV4~a18YZUga7jZa1kEjA2v9LJhTsds2V8KsJjX1m~w2ZY3EdXQHvu8qE7Ol7uUzBd9Ja4ps~z-XA6qnoCSMS06C4xRLw4W1qEGIzZgdLPm-sNWZylQ89UQTag~cpR0rUM21FAcOgRfLxlP2rF6nAgS6wDQ0-OLl6qAuVyNQRcZas15C40vTJVjomM7SVcxxbSyXq1dFustramQiWpwPGawUEbCOD5RwxGUZQQ__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ section {
 
 /* Story Section Styles */
 .story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
+  background-color: #FF902A; /* Secondary Light Blue */
   color: #222;
   text-align: center;
   padding: 30px 20px;
@@ -86,7 +86,7 @@ section {
 
 /* Add accent color to section headings */
 h2 {
-  color: #2E9DF7; /* Primary blue */
+  color: #8BD1CB /* Pink*/
   margin-top: 0;
   font-weight: bold;
 }
@@ -111,8 +111,8 @@ h2 {
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
-  color: #fff;
+  background-color: #F16061 /* pink */
+  color: #F5402C; 
   padding: 14px 32px;
   text-decoration: none;
   border-radius: 6px;
@@ -173,7 +173,15 @@ section {
     text-align: center;
   }
 
-  .impact-image {
+  .impact-image {/* ...existing code... */
+
+/* Make images in the image grid smaller */
+.image-grid img {
+  width: 200px; /* Sets the image width to 200 pixels */
+  height: auto; /* Keeps the image's aspect ratio */
+}
+
+/* ...existing code... */ 
     width: 90%;    /* Make image take up most of the width */
     max-width: 220px;
   }
